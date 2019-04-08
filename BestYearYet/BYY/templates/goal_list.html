@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-
-{% block content %}
-<ul>
-  {% for goal in goals  %}
-  <li>{{goal}} <a href="{{url_for('my_views.edit_goal', goal_id=goal.id)}}">Update</a>    <a href="{{url_for('my_views.delete_goal', goal_id=goal.id)}}">Delete</a></li>
-  {% endfor %}
-</ul>
-{% endblock %}
