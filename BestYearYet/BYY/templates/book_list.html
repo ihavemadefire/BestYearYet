@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+  {% for book in books  %}
+  <li>{{book}} <a href="{{url_for('my_views.edit_book', book_id=book.id)}}">Update</a>    <a href="{{url_for('my_views.delete_book', book_id=book.id)}}">Delete</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

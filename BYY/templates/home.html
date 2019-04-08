@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <br><br><br><br><br><br><br>
+<div class="container">
+
+
+  <a class="btn btn-primary btn-lg" href="{{url_for('my_views.add_goal')}}" >New Goal</a><br>
+  <br>
+  <a class="btn btn-primary btn-lg" href="{{url_for('my_views.add_blog')}}" >New Post</a><br>
+  <br>
+  <a class="btn btn-primary btn-lg" href="{{url_for('my_views.add_book')}}" >New Book</a><br>
+  <br>
+  <a class="btn btn-primary btn-lg" href="{{url_for('my_views.add_health')}}" >New Health</a><br>
+  <br>
+  <a class="btn btn-primary btn-lg" href="{{url_for('my_views.add_news')}}" >New News</a><br>
+</div>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <form method="post">
+    {{form.hidden_tag()}}
+     <div class="form-group" enctype="multipart/form-data">
+     {{form.name.label(class="form-control-label")}}
+     {{form.name(class="form-control form-control-lg")}}
+     </div>
+     <div class="form-group">
+     {{form.area.label(class="form-control-label")}}
+     {{form.area(class="form-control form-control-lg")}}
+     </div>
+     <div class="form-group">
+     {{form.type.label}}
+     {{form.type()}}
+     </div>
+     <div class="form-group">
+     {{form.description.label(class="form-control-label")}}
+     {{form.description(class="form-control form-control-lg")}}
+     </div>
+     <div class="form-group">
+     {{form.status.label(class="form-control-label")}}
+     {{form.status(class="form-control form-control-lg")}}
+     </div>
+     <div class="form-group">
+     {{form.update_news.label(class="form-control-label")}}
+     {{form.update_news(class="form-control form-control-lg")}}
+     </div>
+     <div class="form-group">
+     {{form.percent_complete.label(class="form-control-label")}}
+     {{form.percent_complete(class="form-control form-control-lg")}}
+     </div>
+     <div class="form-group">
+     {{form.submit(class="btn btn-primary")}}
+     </div>
+  </form>
+
+</div>
+
+
+{% endblock %}

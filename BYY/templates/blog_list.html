@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+  {% for blog in blogs  %}
+  <li>{{blog}} <a href="{{url_for('my_views.edit_blog', blog_id=blog.id)}}">Update</a>    <a href="{{url_for('my_views.delete_blog', blog_id=blog.id)}}">Delete</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
