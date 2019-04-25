@@ -180,11 +180,11 @@ class Goals(Resource):
         else:
             return {'name':none},404
 
-api.add_resource(Goals, '/goals/<string:name>')
+api.add_resource(Goals, 'https://best-year-yet.herokuapp.com/goals/<string:name>')
 
 class List(Resource):
     def get(self,area):
         goals = Goal.query.filter_by(area=area).with_entities("name").all()
         return [goal.name for goal in goals]
 
-api.add_resource(List, '/areas/<string:area>')
+api.add_resource(List, 'https://best-year-yet.herokuapp.com/areas/<string:area>')
