@@ -6,7 +6,7 @@ $(document).ready(function(){
   let areaName = e.target.value;
   $("#getGoal").empty();
   $.ajax({
-      url:'http://127.0.0.1:5000/areas/'+areaName}).done(function(area){
+      url:'https://best-year-yet.herokuapp.com/areas/'+areaName}).done(function(area){
         $.each(area, function(key, value){
           $("#getGoal").append("<option value"+value+">"+value+"</option");
         });
@@ -18,7 +18,7 @@ $(document).ready(function(){
     let goalName = e.target.value;
 
   $.ajax({
-    url:'http://127.0.0.1:5000/goals/'+goalName}).done(function(goal){
+    url:'https://best-year-yet.herokuapp.com/goals/'+goalName}).done(function(goal){
       $('#name').text(goal.name);
       $('#area').text(goal.area);
       $('#type').text(goal.type);
