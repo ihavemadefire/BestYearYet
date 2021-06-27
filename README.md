@@ -1,5 +1,8 @@
 # BestYearYet
 ## You can't manage what you can't measure
+
+![alt text](https://github.com/ihavemadefire/BestYearYet/blob/master/BYY/static/img/BYY_Logo.png)
+
 A flask application with
 - blog
 - health tracker
