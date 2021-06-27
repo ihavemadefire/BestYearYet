@@ -15,7 +15,7 @@ BestYear Yeat is a Flask web application that facilitates better tracking of New
 
 ## Tech stack
 
- -----------  ------
+| ----------- | ------ |
 | Framework  | Flask |
 | DB | sqlite |
 | ORM | SQLAlchemy |
