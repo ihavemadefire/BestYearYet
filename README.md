@@ -1,4 +1,6 @@
+<p align='center'
 <img src='https://github.com/ihavemadefire/BestYearYet/blob/master/BYY/static/img/BYY_Logo.png'  width=300 style='align: center'>
+</p>
 
 # BestYearYet
 
