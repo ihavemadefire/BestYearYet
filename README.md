@@ -8,9 +8,10 @@
 
 <img src='https://github.com/ihavemadefire/BestYearYet/blob/master/Splash_BYY.png' height=500>
 
-BestYear Yeat is a Flask web application that facilitates better tracking of New Year’s resolutions. The impetus for this was the realization that most people forget about their self-improvement plans for the year by February. BestYearYet provides a means for people to track their progress using customized goal trackers.  The main categories are Goals, Books, and Health. In addition to goal tracking, progress bars, and health graphing, there is a blog section that allows users to document their journey.
 
 <img src='https://github.com/ihavemadefire/BestYearYet/blob/master/resolution_byy.png' height=300 align=right>
+
+BestYear Yeat is a Flask web application that facilitates better tracking of New Year’s resolutions. The impetus for this was the realization that most people forget about their self-improvement plans for the year by February. BestYearYet provides a means for people to track their progress using customized goal trackers.  The main categories are Goals, Books, and Health. In addition to goal tracking, progress bars, and health graphing, there is a blog section that allows users to document their journey.
 
 | Implemented | Not implemented Yet |
 |-------------|---------------------|
