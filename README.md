@@ -30,7 +30,7 @@ I am Jacob Ide, a web developer and Holberton student from Tulsa, OK. I love dad
 
 Find me on:
 -----------
-[Twitter](https://twitter.com/Jacobei6)
+[Twitter ](https://twitter.com/Jacobei6)<br>
 [LinkedIn](https://www.linkedin.com/in/jacobide/)
 
 ## Check out my forthcoming portfolio project
