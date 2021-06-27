@@ -21,6 +21,7 @@ BestYear Yeat is a Flask web application that facilitates better tracking of New
 | Tables built and populated | Refactor in more appropriate framework |
 | Animations for blog posts done | Refactor front end as React|
 
+## Biggest challenges
 This was my first attempt at a web application of any size at all. The limitations of Flask as a microframework made it very difficult to finish the project as a fully fleshed out social network. It’s an idea I would like to refactor with a framework like Django.
 
 
