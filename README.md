@@ -1,7 +1,7 @@
 # BestYearYet
 ## You can't manage what you can't measure
 
-![alt text](https://github.com/ihavemadefire/BestYearYet/blob/master/BYY/static/img/BYY_Logo.png)
+<img src='https://github.com/ihavemadefire/BestYearYet/blob/master/BYY/static/img/BYY_Logo.png'  width=300 align=center>
 
 A flask application with
 - blog
